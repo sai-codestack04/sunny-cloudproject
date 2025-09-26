@@ -304,6 +304,16 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_546093267094200
+                        jcr:lastModified="{Date}2025-09-26T07:19:02.934+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="new policy 2"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:SunnyCloud AEM - Content,group:SunnyCloud AEM - Form,group:SunnyCloud AEM - Structure]"
+                        layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_546093267094200>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
@@ -331,14 +341,80 @@
             </download>
             <page jcr:primaryType="nt:unstructured">
                 <policy
-                    jcr:description="Includes the required client libraries."
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Generic Page"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[sunnycloud.dependencies,sunnycloud.site]"
-                    clientlibsJsHead="sunnycloud.dependencies">
+                        cq:styleDefaultClasses="default-class-edit-template"
+                        jcr:description="Includes the required client libraries."
+                        jcr:lastModified="{Date}2025-09-26T07:28:42.991+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Generic Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[sunnycloud.dependencies,sunnycloud.site]"
+                        clientlibsAsync="false"
+                        clientlibsJsHead="sunnycloud.dependencies"
+                        mainContentSelector="skip-test">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                                cq:styleGroupLabel="Test Background Styles"
+                                jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                        cq:styleClasses="bg-yellow"
+                                        cq:styleId="1758851782743"
+                                        cq:styleLabel="Yellow Background"
+                                        jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                        cq:styleClasses="bg-blue"
+                                        cq:styleId="1758851808770"
+                                        cq:styleLabel="Blue Background"
+                                        jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy>
+                <policy_1574695586800
+                        jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                        jcr:lastModified="{Date}2025-09-26T07:16:25.938+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Page Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:Asset Share,/apps/sunnycloud/components/helloworld]"
+                        layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:authoring jcr:primaryType="nt:unstructured">
+                        <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                            <mapping_1575030255082
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="sunnycloud/components/image"/>
+                            <mapping_1575030260142
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="content"
+                                    assetMimetype="text/html"
+                                    droptarget="experiencefragment"
+                                    resourceType="sunnycloud/components/experiencefragment"/>
+                            <mapping_1575030269139
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                    droptarget="contentfragment"
+                                    resourceType="sunnycloud/components/contentfragment"/>
+                        </assetToComponentMapping>
+                    </cq:authoring>
+                </policy_1574695586800>
+                <policy_546093267094200
+                        jcr:lastModified="{Date}2025-09-26T07:19:02.934+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="new policy 2"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:SunnyCloud AEM - Content,group:SunnyCloud AEM - Form,group:SunnyCloud AEM - Structure]"
+                        layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_546093267094200>
             </page>
         </components>
     </sunnycloud>

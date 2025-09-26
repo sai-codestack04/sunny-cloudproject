@@ -1,0 +1,22 @@
+/* ============================
+   Background Styles
+   ============================ */
+.bg-yellow {
+  background-color: #fff3cd; /* soft yellow */
+  padding: 10px;
+}
+
+.bg-lightgray {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.bg-blue {
+  background-color: #e7f1ff;
+  padding: 10px;
+}
+
+.bg-green {
+  background-color: #eafbea;
+  padding: 10px;
+}
