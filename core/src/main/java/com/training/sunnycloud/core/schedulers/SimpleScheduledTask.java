@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.training.sunnycloud.core.core.schedulers;
+package com.training.sunnycloud.core.schedulers;
 
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
@@ -58,7 +58,7 @@ public class SimpleScheduledTask implements Runnable {
     }
 
     @Activate
-    protected void activate(final Config config) {
+    public void activate(final Config config) {
         myParameter = config.myParameter();
     }
 

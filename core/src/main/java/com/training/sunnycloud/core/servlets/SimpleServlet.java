@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.training.sunnycloud.core.core.servlets;
+package com.training.sunnycloud.core.servlets;
 
 import com.day.cq.commons.jcr.JcrConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -47,8 +47,8 @@ public class SimpleServlet extends SlingSafeMethodsServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
-    protected void doGet(final SlingHttpServletRequest req,
-            final SlingHttpServletResponse resp) throws ServletException, IOException {
+    public void doGet(final SlingHttpServletRequest req,
+                      final SlingHttpServletResponse resp) throws ServletException, IOException {
         final Resource resource = req.getResource();
         resp.setContentType("text/plain");
         resp.getWriter().write("Title = " + resource.getValueMap().get(JcrConstants.JCR_TITLE));

@@ -15,6 +15,7 @@
  */
 package com.training.sunnycloud.core.core.models;
 
+import com.training.sunnycloud.core.models.HelloWorldModel;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.junit.jupiter.api.BeforeEach;

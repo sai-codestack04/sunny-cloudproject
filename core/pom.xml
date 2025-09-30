@@ -43,8 +43,18 @@
                         </goals>
                         <configuration>
                             <bnd><![CDATA[
-Import-Package: javax.annotation;version=0.0.0,*
-                                ]]></bnd>
+Import-Package:
+    com.day.cq.wcm.api;version="[1.28,2)",
+    javax.annotation;version=0.0.0,
+    *
+
+Export-Package:
+    com.training.sunnycloud.core.models,
+    com.training.sunnycloud.core.filters,
+    com.training.sunnycloud.core.listeners,
+    com.training.sunnycloud.core.schedulers,
+    com.training.sunnycloud.core.servlets
+                            ]]></bnd>
                         </configuration>
                     </execution>
                 </executions>
@@ -86,9 +96,12 @@ Import-Package: javax.annotation;version=0.0.0,*
             <artifactId>slf4j-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- AEM SDK API (use provided, not packaged) -->
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>aem-sdk-api</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>

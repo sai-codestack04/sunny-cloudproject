@@ -19,6 +19,7 @@ import java.io.IOException;
 
 import javax.servlet.ServletException;
 
+import com.training.sunnycloud.core.servlets.SimpleServlet;
 import org.apache.sling.testing.mock.sling.servlet.MockSlingHttpServletRequest;
 import org.apache.sling.testing.mock.sling.servlet.MockSlingHttpServletResponse;
 import org.junit.jupiter.api.Test;

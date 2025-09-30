@@ -17,6 +17,7 @@ package com.training.sunnycloud.core.core.schedulers;
 
 import java.util.List;
 
+import com.training.sunnycloud.core.schedulers.SimpleScheduledTask;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

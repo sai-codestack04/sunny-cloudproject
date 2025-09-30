@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.training.sunnycloud.core.core.schedulers;
+package com.training.sunnycloud.core.schedulers;
 
 import org.osgi.annotation.versioning.Version;

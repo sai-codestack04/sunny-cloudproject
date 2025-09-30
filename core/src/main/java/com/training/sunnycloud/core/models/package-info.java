@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.training.sunnycloud.core.core.servlets;
+package com.training.sunnycloud.core.models;
 
 import org.osgi.annotation.versioning.Version;
