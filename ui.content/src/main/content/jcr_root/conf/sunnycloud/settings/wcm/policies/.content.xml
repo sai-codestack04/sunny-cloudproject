@@ -416,6 +416,86 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_546093267094200>
             </page>
+            <verifyeditconfigstyles jcr:primaryType="nt:unstructured">
+                <policy_1759802295623
+                        cq:styleDefaultClasses="default-class-added"
+                        jcr:lastModified="{Date}2025-10-07T07:31:38.261+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Style Systems Demo"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <paraformat
+                                jcr:primaryType="nt:unstructured"
+                                features="-">
+                            <formats
+                                    jcr:primaryType="nt:unstructured"
+                                    override="true"/>
+                        </paraformat>
+                        <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="-">
+                            <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                <chars
+                                        jcr:primaryType="nt:unstructured"
+                                        override="true"/>
+                            </specialCharsConfig>
+                        </misctools>
+                        <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <findreplace
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <undo
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <spellcheck
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <image
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <table
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <lists
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                        <justify
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        <format
+                                jcr:primaryType="nt:unstructured"
+                                features="bold,italic"/>
+                        <links
+                                jcr:primaryType="nt:unstructured"
+                                features="modifylink,unlink,anchor"/>
+                        <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                    </rtePlugins>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                                cq:styleGroupLabel="Border Color"
+                                jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                        cq:styleClasses="red"
+                                        cq:styleId="1759802335865"
+                                        cq:styleLabel="Red"
+                                        jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                        cq:styleClasses="blue"
+                                        cq:styleId="1759802343775"
+                                        cq:styleLabel="Blue"
+                                        jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1759802295623>
+            </verifyeditconfigstyles>
         </components>
     </sunnycloud>
     <wcm jcr:primaryType="nt:unstructured">
