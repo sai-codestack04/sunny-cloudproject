@@ -3,7 +3,6 @@
     <filter root="/conf/sunnycloud" mode="merge"/>
     <filter root="/content/sunnycloud" mode="merge"/>
     <filter root="/content/dam/sunnycloud" mode="merge">
-        <exclude pattern="/content/dam/sunnycloud(/.*)?"/>
         <include pattern="/content/dam/sunnycloud/jcr:content(/.*)?"/>
     </filter>
     <filter root="/content/dam/sunnycloud/asset.jpg" mode="merge"/>
